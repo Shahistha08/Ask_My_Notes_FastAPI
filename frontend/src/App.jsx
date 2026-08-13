@@ -21,7 +21,7 @@ function App() {
     setAnswer("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/ask", {
+      const response = await fetch("https://backend-model-9umh.onrender.com/ask", {
         method: "POST",
 
         headers: {
